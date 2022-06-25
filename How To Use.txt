@@ -1,0 +1,4 @@
+Name your input file that you wish to upscale "in" (Ensure it is an mp4)
+and then run the gpu.cmd. This will output "output_file.mp4".
+
+- ItzOwo
