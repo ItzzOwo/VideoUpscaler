@@ -15,7 +15,7 @@ powershell Invoke-WebRequest "https://cdn.discordapp.com/attachments/98566793096
 goto start
 :completed
 SET msgboxTitle=Successfully Completed!
-SET msgboxBody=The file is named "out.mp4" - Subscribe to ItzOwo on YouTube
+SET msgboxBody=The file is named out.mp4 - Subscribe to ItzOwo on YouTube
 SET tmpmsgbox=%temp%\~tmpmsgbox.vbs
 IF EXIST "%tmpmsgbox%" DEL /F /Q "%tmpmsgbox%"
 ECHO msgbox "%msgboxBody%",0,"%msgboxTitle%">"%tmpmsgbox%"
