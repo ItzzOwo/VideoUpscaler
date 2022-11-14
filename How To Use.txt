@@ -2,5 +2,3 @@ Ensure FFMPEG is installed https://ffmpeg.org/download.html
 
 Name your input file that you wish to upscale "in" (Ensure it is an mp4)
 and then run the gpu.cmd. This will output "out.mp4".
-
-- ItzOwo
